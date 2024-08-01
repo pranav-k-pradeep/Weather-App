@@ -1,0 +1,176 @@
+/* .heading{
+    display: flex;
+} */
+
+.weather-container{
+    padding: 10rem;
+    border: 1px solid white;
+    /* width: 500px;
+    height: 500px; */
+    
+    position: relative;
+    background-color: rgb(255, 255, 255);
+   border: 1px saddlebrown;
+    margin: 0  auto;
+}
+
+
+.weather-post-container{
+    margin: 0 auto;
+/* text-align: center; */
+    max-width: 30rem;
+    max-height: 30rem;
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    background-color: #172A3A;
+    
+}
+
+.city-container span{
+    color: white;
+}
+
+.heading{
+    position: relative;
+    height: 5.2rem;
+    
+}
+
+h2{
+   color: white;
+   text-align: center;
+   padding-top: 2rem;
+   /* text-align: center; */
+}
+
+.arrow-img{
+    position: absolute;
+    top:2rem;
+    left: 1rem;
+}
+
+
+.weather-condition{
+    color: white;
+}
+
+.temperature-box{
+    color: white;
+}
+
+/* .arrow-img{
+    padding-left: 2rem;
+    margin-top: 3rem;
+} */
+
+.city-container{
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+}
+
+.hill-img{
+position: absolute;
+bottom:0rem;
+left: 0rem;
+}
+
+.cloud-img{
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+
+.weather-condition{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.temperature-box{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.weather-info-container{
+    display: flex;
+    margin-top: 2rem;
+    border-radius:  0px 0px 10px 10px  ;
+    height: 4rem;
+    position: relative;
+   justify-content: space-around;
+   background-color: #508991;
+
+}
+
+.temperature-container{
+    display: flex;
+    flex: 1;
+    gap:0.9rem;
+    border-top: 1px white;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+
+
+.humidity-container{
+    display: flex;
+    flex: 1;
+    gap:0.9rem;
+    border-left: 1px solid white;
+    border-top: 1px white;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.temperature-description p{
+    position: absolute;
+    top: 17px;
+}
+
+.temperature-description span{
+    position: absolute;
+    top: 17px;
+}
+
+
+
+
+.temperature-icon{
+    width: 28px;
+    height: 28px;
+    padding-top: 22px;
+}
+
+.humidity-img{
+    width: 15px;
+    height: 20px;
+    padding-top: 22px;
+}
+
+.humidity-description p{
+    position: absolute;
+    top: 17px;
+}
+
+
+.humidity-description span{
+    position: absolute;
+    top: 17px;
+}
+/* 
+.humidity-icon{
+    margin-right: 30px;
+}
+
+.humidity-description{
+    margin-right: 50px;
+} */
+
+.humidity-description{
+    margin-right: 50px;
+}
